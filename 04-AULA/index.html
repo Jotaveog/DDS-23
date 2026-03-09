@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <h1>Formulários - tipos de input</h1>
+
+    <!-- Input - coleta informações do usuário -->
+    <!-- <input type="text"> -->
+
+    <!-- Tag que engloba os campos do Formulário -->
+    <form action="" method="">
+      <fieldset>
+        <legend> Dados login </legend>
+
+        <label for="">Nome:</label>
+        <input
+          type="text"
+          id="caixa-nome"
+          name="caixa-nome"
+          placeholder="Digite seu nome completo"
+        />
+
+        <br />
+        <br />
+        <!-- Forms 2 -->
+        <label for=""
+          >Email:
+          <input
+            type="email"
+            name="caixa-email"
+            id="caixa-email"
+            placeholder="email@email.com"
+          />
+        </label>
+
+        <br />
+        <br />
+
+        <label for=""> Senha: </label>
+        <input
+          type="password"
+          name="caixa-senha"
+          id="caixa-senha"
+          placeholder="Digite uma Senha"
+        />
+
+        <br />
+        <br />
+
+        <input
+          type="submit"
+          name="botao-login"
+          id="botao-login"
+          value="Login"
+        />
+      </fieldset>
+    </form>
+
+    <br>
+    <br>
+
+    <label for="input-data">Data</label>
+    <input type="date" name="input-data" id="input-data">
+
+    <input type="datetime-local" name="" id="">
+
+    <input type="time" name="" id="">
+
+    <h2>Telefone</h2>
+    <input type="tel" pattern="[0-9]{3}--[0-9]{5}--[0-9]{4}" placeholder="{027} 99999-9999">
+  </body>
+</html>
