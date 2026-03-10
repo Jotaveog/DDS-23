@@ -1,0 +1,48 @@
+body {
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+ul {
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+li {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  background-color: pink;
+}
+
+#caixa-rosa {
+  background-color: palevioletred;
+  padding: 100px;
+  margin: 20px;
+}
+
+#caixa-roxa {
+  background-color: rebeccapurple;
+}
+
+.caixinha {
+    background-color: white;
+    color: blue;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin: 50px 40px 30px 20px;
+    
+}
