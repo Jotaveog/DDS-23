@@ -1,0 +1,107 @@
+/* Seleciona todos os elementos */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Seleciona por tag  */
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+
+/* Seleciona por id  */
+#topo{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Selecione por class */
+.descriçao{
+    font-style: italic;
+}
+
+/* Estiliza os elementos  */
+.bloco{
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.destaque{
+    background-color: gold;
+}
+
+.texto-destaque{
+    font-weight: bold;
+    color: darkred;
+}
+
+#caixa-unica{
+    background-color: lightblue;
+    border: 2px solid purple;
+    padding: 10px;
+}
+
+div p {
+    color: blue;
+}
+
+.pai-direto > p {
+    color: green;
+    padding: 5px;
+}
+
+h3 + p {
+    color: red;
+    font-weight: bold
+}
+
+h4 ~ p{
+    background-color: blueviolet;
+    color: yellow;
+}
+
+input[type="text"]{
+    border: 2px solid orange;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+a[href*="google"]{
+    color: green;
+    font-weight: 50px;
+}
+
+h5,h6{
+    color: purple;
+    margin: 5px 0px;
+    font-size: 50px;
+}
+
+.botao.ativo{
+    color: aqua;
+    padding: 50px;
+}
+
+p.aviso{
+    color: chartreuse;
+
+}
+
+div#painel{
+    background-color: red;
+    padding: 10px;
+}
+
+#menu ul li{
+    color: violet;
+    text-decoration: none;
+    list-style-type: none;
+}
