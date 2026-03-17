@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    src: url("./fonts/Playwrite.ttf");
+    font-family: "Playwrite";
+}
+
+p{
+    font-family: Playwrite;
+    color: darkblue;
+    font-size: 15px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.bloco {
+  background-color: white;
+  border: 2px solid gray;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+a {
+  color: orange;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:active {
+  color: green;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+button:active {
+  transform: scaleX(1.2);
+  transform: scaleY(0.7);
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid yellow;
+  background-color: azure;
+}
+
+input:required {
+  border: 2px solid red;
+}
+
+input:valid {
+  background-color: #ecfdf5;
+}
+
+input:invalid {
+  background-color: #fef2f2;
+}
+
+input:checked {
+  accent-color: green;
+}
+
+input:disabled {
+  background-color: #e5e7eb;
+  color: #6b7280;
+}
+
+.lista-exemplo li:first-child {
+  font-weight: bold;
+  color: green;
+}
+
+.lista-exemplo li:last-child {
+  color: red;
+}
+
+.lista-exemplo li:nth-child(3) {
+  background-color: #fef3c7;
+}
+
+.caixa-vazia:empty {
+  width: 200px;
+  height: 60px;
+  background-color: #fef2f2;
+  border: red;
+}
+
+h2::before {
+  content: "⭐";
+  color: #fef3c7;
+}
+
+h2::after {
+  content: "✔️";
+  color: green;
+}
+
+input::placeholder {
+  color: #6b7280;
+  font-style: italic;
+}
+
+::selection {
+  background-color: yellow;
+  color: green;
+  font-size: bold;
+}
+
+.lista-maker li::marker {
+  color: red;
+  font-size: 20px;
+}
