@@ -46,6 +46,8 @@ body{
     grid-template-areas: 
     "cabecalho cabecalho"
     "menu-lateral principal"
+    "teste teste"
+    "menu-laterall menu-laterall"
     "rodape rodape";
 }
 
@@ -64,8 +66,17 @@ body{
     grid-area: menu-lateral;
 }
 
+#menu-laterall{
+    background-color: greenyellow;
+    grid-area: menu-laterall;
+}
+
 #principal{
     background-color: blue;
     grid-area: principal;
 }
 
+#teste{
+    background-color: pink;
+    grid-area: teste;
+}

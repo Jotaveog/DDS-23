@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color: #0a4b73;
+    font-family: "Inter", sans-serif;
+    color: black;
+    line-height: 1.6;
+}
+
+
+.logo:first-child{
+    width: 180px;
+}
+
+.logo:last-child{
+    width: 250px;
+}
+
+.pai-logo{
+    background-color: white;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pai-logo img{
+    width: 250px;
+}
+
+.topo{
+    background-color: #2298e1;
+    height: 200px;
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    background-color: white;
+    font-size: bold;
+}
+
+.menu a{
+    color: black;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    background-color: #1e293b;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    min-height: 85px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;   
+}
+
+.caixa-video{
+    background-color: white;
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.logo{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.apoio{
+    height: 80px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.video{
+    flex: 2;
+    border-radius: 10px;
+    background-color: white;
+    height: 500px;
+    width: 800px;
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    width: 600px;
+}
