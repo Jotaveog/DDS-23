@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container bg-body-tertiary">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CyberSecurity</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Unidades
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Vitoria</a></li>
+                  <li><a class="dropdown-item" href="#">Vila Velha</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Cariacica</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Serra</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1>BEM VINDO AO BOOTSTRAP</h1>
+
+      <div class="row">
+        <div class="col col-12 col-md-6 col-xl-3 bg-success p-5 text-white">
+          Coluna A
+        </div>
+        <div class="col col-12 col-md-6 col-xl-3 bg-danger px-5 text-dark">
+          Coluna 2
+        </div>
+        <div class="col col-12 col-md-6 col-xl-3 bg-info py-4 text-danger">
+          Coluna Omega
+        </div>
+        <div class="col col-12 col-md-6 col-xl-3 bg-warning pb-3 text-success">
+          Coluna Fim
+        </div>
+      </div>
+
+      <h2 class="my-3">Display flex</h2>
+      <div
+        class="d-flex flex-wrap gap-2 bg-body-secondary justify-content-between align-items-center p-3"
+      >
+        <div class="p-2 bg-danger text-white rounded-3 fs-1">OPÇÃO</div>
+        <div class="p-2 bg-warning text-white rounded-3 fs-1">OPÇÃO</div>
+        <div class="p-2 bg-success text-white rounded-3 fs-1">OPÇÃO</div>
+        <div class="p-2 bg-danger text-white rounded-3 fs-1">OPÇÃO</div>
+        <div class="p-2 bg-warning text-white rounded-3 fs-1">OPÇÃO</div>
+        <div class="p-2 bg-success text-white rounded-3 fs-1">OPÇÃO</div>
+      </div>
+
+      <h2 class="my-3">Display grid</h2>
+      <div class="d-grid gap-5">
+        <div class="p-2 bg-danger text-white rounded-3 fs-1">OPÇÃO</div>
+        <div class="p-2 bg-warning text-white rounded-3 fs-1">OPÇÃO</div>
+        <div class="p-2 bg-success text-white rounded-3 fs-1">OPÇÃO</div>
+      </div>
+
+      <div class="card-group">
+        <div class="card">
+          <img src="https://media.tenor.com/tJr565OBPJUAAAAe/messi-bar%C3%A7a.png" class="card-img-top" alt="..." height="250px" />
+          <div class="card-body">
+            <h5 class="card-title">Meçi</h5>
+            <p class="card-text">
+             mira bobo
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://i.pinimg.com/originals/fc/16/9c/fc169c4de125f69c56bf67c9ef03d931.jpg" class="card-img-top" alt="..." height="250px" />
+          <div class="card-body">
+            <h5 class="card-title">Cerrisete</h5>
+            <p class="card-text">
+              cr7 gordo
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://preview.redd.it/esse-%C3%A9-o-seu-%C3%ADdolo-v0-2hslm8kdkmbf1.jpeg?width=640&crop=smart&auto=webp&s=1eef52caafb2f11e61a3d3ee07e1f932e2cf50cf"
+            class="card-img-top"
+            alt="..."
+            height="250px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cr7 beija meçi</h5>
+            <p class="card-text">
+                cr7 é o melhor jogador do mundo
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
